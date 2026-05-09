@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moshiur Rahman | Software Engineer</title>
+    <meta name="description" content="Portfolio of Moshiur Rahman, a Software Engineer specializing in Flutter, Android, and iOS development.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="nav-container">
+            <a href="#" class="logo-container">
+                <div class="logo-img-wrapper">
+                    <img src="assets/images/moshiur.jpg" alt="Moshiur Rahman" class="logo-img">
+                </div>
+                <div class="logo-info">
+                    <span class="logo-name">Moshiur Rahman</span>
+                    <span class="logo-role">Software Engineer</span>
+                </div>
+            </a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <i data-lucide="moon" class="moon-icon"></i>
+                    <i data-lucide="sun" class="sun-icon"></i>
+                </button>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Open Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero-content fade-in">
+                <div class="hero-text">
+                    <div class="badge glass-badge">Available for Work</div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Moshiur Rahman</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Software Engineer & Mobile Application Developer</h2>
+                    <p class="hero-description">
+                        Building futuristic applications that leverage modern technology to simplify daily human tasks. 
+                        I dream in dark mode <i data-lucide="moon" class="inline-icon"></i> and debug in light mode <i data-lucide="sun" class="inline-icon"></i>.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary glass">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image-container fade-in-right">
+                    <div class="blob"></div>
+                    <img src="assets/images/avatar.png" alt="Moshiur Rahman 3D Avatar" class="hero-image">
+                    <div class="floating-badge flutter-badge glass">
+                        <i data-lucide="smartphone"></i> Flutter Expert
+                    </div>
+                    <div class="floating-badge exp-badge glass">
+                        <i data-lucide="award"></i> 2+ Yrs Exp
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="section-header fade-in">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content fade-in-up">
+                <div class="about-card glass">
+                    <p>
+                        I'm a passionate Software Engineer and Computer Science Engineering student from Hamdard University, Bangladesh. With over 2 years of experience specializing in cross-platform mobile app development (Android & iOS), I am driven by the vision of building applications that improve productivity.
+                    </p>
+                    <p>
+                        My journey began with Native Android (Java), giving me a deep understanding of mobile ecosystems before transitioning to Flutter. I also have research experience in Machine Learning and IoT, with my work published in an international conference.
+                    </p>
+                    <div class="quick-facts">
+                        <div class="fact-item"><i data-lucide="briefcase"></i> Sparktech Agency</div>
+                        <div class="fact-item"><i data-lucide="graduation-cap"></i> CSE, Hamdard University</div>
+                        <div class="fact-item"><i data-lucide="map-pin"></i> Bangladesh</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Experience</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="timeline fade-in-up">
+                <div class="timeline-item glass">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Junior Flutter Developer</h3>
+                            <span class="timeline-date">Sep 2025 - Present</span>
+                        </div>
+                        <h4 class="timeline-company">Spark Tech Agency</h4>
+                        <ul class="timeline-list">
+                            <li>Led the end-to-end development of 6 mobile applications (4 solo projects, 2 team projects).</li>
+                            <li>Developed scalable applications using Feature-First MVVM architecture with pixel-perfect responsive UI, increasing development efficiency by 25%.</li>
+                            <li>Leveraged Agile methodologies to deliver features faster and achieve high client satisfaction.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid fade-in-up">
+                <div class="skill-category glass">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Dart</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">C</span>
+                        <span class="tag">C++</span>
+                    </div>
+                </div>
+                <div class="skill-category glass">
+                    <h3>Frameworks & Arch</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Flutter</span>
+                        <span class="tag">Django (Learning)</span>
+                        <span class="tag">GetX</span>
+                        <span class="tag">Bloc</span>
+                        <span class="tag">MVVM</span>
+                        <span class="tag">Clean Architecture</span>
+                    </div>
+                </div>
+                <div class="skill-category glass">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Firebase</span>
+                        <span class="tag">REST APIs</span>
+                        <span class="tag">SQLite</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Figma</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="projects-grid fade-in-up">
+                
+                <div class="project-card glass">
+                    <div class="project-image">
+                        <img src="assets/images/project.png" alt="Micro Habit App">
+                        <div class="project-links">
+                            <a href="https://github.com/codeMAHDI/Micro-Habit-App" target="_blank" class="glass-btn"><i data-lucide="github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Micro Habit App</h3>
+                        <p>A gamified habit-tracking application featuring interactive analytics, calendar scheduling, and dynamic gamification (badges, streak banners). Built with Flutter and GetX.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span><span>GetX</span><span>MVVM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass">
+                    <div class="project-image">
+                        <img src="assets/images/project.png" alt="Couta App">
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.rita.counta_app" target="_blank" class="glass-btn"><i data-lucide="play"></i> Play Store</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Couta</h3>
+                        <p>Scalable mobile application for Therapist-Patient appointment scheduling and booking management. RESTful API integration and performance tuned.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span><span>REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass">
+                    <div class="project-image">
+                        <img src="assets/images/project.png" alt="Isla Car">
+                        <div class="project-links">
+                            <a href="https://apps.apple.com/redeem?code=NYWM96AT79NF&ctx=apps" target="_blank" class="glass-btn"><i data-lucide="apple"></i> App Store</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Isla Car</h3>
+                        <p>Enterprise application optimizing car rental operations by digitizing ground staff processes and managing end-to-end vehicle lifecycles.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span><span>Enterprise</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass">
+                    <div class="project-image">
+                        <img src="assets/images/project.png" alt="Property Management">
+                    </div>
+                    <div class="project-info">
+                        <h3>Property Management</h3>
+                        <p>Role-Based Access Control application connecting owners, guests, and providers. Features dynamic listings, real-time WebSockets, and Stripe payments.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span><span>WebSockets</span><span>Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass">
+                    <div class="project-image">
+                        <img src="assets/images/project.png" alt="Service Market Place">
+                    </div>
+                    <div class="project-info">
+                        <h3>Service Market Place</h3>
+                        <p>Feature-rich marketplace connecting customers and providers. Dual-role architecture, Socket.io for messaging, and Table Calendar for scheduling.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span><span>Socket.io</span><span>GetX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass">
+                    <div class="project-image">
+                        <img src="assets/images/project.png" alt="Barber App">
+                    </div>
+                    <div class="project-info">
+                        <h3>Barber App</h3>
+                        <p>High-performance marketplace platform streamlining barber shop operations through real-time scheduling and service catalogs.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span><span>WebSockets</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-container fade-in-up glass">
+                <p class="contact-text">I'm currently looking to collaborate on Flutter projects and explore new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <div class="contact-methods">
+                    <a href="mailto:moshiurrahmanmehedi210@gmail.com" class="contact-method glass-hover">
+                        <i data-lucide="mail"></i>
+                        <span>moshiurrahmanmehedi210@gmail.com</span>
+                    </a>
+                    <a href="tel:01410013150" class="contact-method glass-hover">
+                        <i data-lucide="phone"></i>
+                        <span>01410013150</span>
+                    </a>
+                    <a href="https://github.com/codeMAHDI" target="_blank" class="contact-method glass-hover">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.02c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A4.8 4.8 0 0 0 8 18v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                        <span>github.com/codeMAHDI</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/codemahdi/" target="_blank" class="contact-method glass-hover">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        <span>linkedin.com/in/codemahdi</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Designed & Built by Moshiur Rahman © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
