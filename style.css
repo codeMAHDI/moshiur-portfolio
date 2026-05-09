@@ -397,6 +397,10 @@ ul {
 }
 
 /* About Section */
+.about {
+    padding-top: 0.5rem;
+}
+
 .about-card {
     padding: 3rem;
     border-radius: 24px;
