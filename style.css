@@ -671,6 +671,12 @@ ul {
     font-weight: 500;
 }
 
+.contact-method span {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    text-align: left;
+}
+
 .contact-method i,
 .contact-method svg {
     color: var(--accent-primary);
@@ -832,5 +838,10 @@ ul {
 
     .project-card {
         border-radius: 16px;
+    }
+
+    .contact-method {
+        font-size: 0.85rem;
+        padding: 0.8rem;
     }
 }
